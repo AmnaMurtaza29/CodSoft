@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(238, 55, 85);
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1 rem;
+    color: rgb(255, 255, 255);
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+
+}
+.purple {
+    color: rgb(238, 55, 85); 
+}
+.leftsection {
+    font-size: 1.5rem;
+    width: 20%;
+    color: white;
+    
+}
+.rightsection img{
+    width: 40%;
+    margin: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.cs{
+    color: rgb(238, 55, 85);
+}
+#skills {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#skills h1 {
+    font-size: 2em;
+    color: rgb(238, 55, 85);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skill-categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-category {
+    margin: 10px;
+    background-color: rgb(238, 55, 85);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-category h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skill-category:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+.aboutme {
+    text-align: center;
+    color: rgb(238, 55, 85);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aboutmep {
+    font-family: cursive;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(33, 30, 30);
+}
+.about img {
+    height: auto;
+    width: 430px;
+}
+.aboutmep {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutmep h2{
+    color: rgb(238, 55, 85);
+    font-size: 70px; 
+    text-transform: capitalize;
+    margin-bottom: 20px ;
+}
+.aboutmep h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.aboutmep p{
+    color: white;
+    line-height: 28px;
+    font-family: cursive;
+}
+.f {
+    color: rgb(238, 55, 85);
+}
+.projects {
+    background: rgb(33, 30, 30);
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(32, 21, 21);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(238, 55, 85);
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra {
+    color: rgb(231, 161, 161);
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.card .button {
+    background-color: rgb(238, 55, 85);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 5s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(238, 55, 85);
+    cursor: alias;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.resume h4{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.download{
+    background-color: rgb(238, 55, 85);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 5s;
+}
+.download:hover{
+    background-color: transparent;
+    border: 2px solid rgb(238, 55, 85);
+    cursor: alias;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    height: 100vh;
+    background-color: rgb(33, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.contactme {
+    color: rgb(238, 55, 85);
+}
+.email {
+    display: inline;
+    color: rgb(231, 161, 161);
+    font-family: cursive;
+}
+.linkedin {
+    display: inline;
+    color: rgb(231, 161, 161);
+    text-decoration: none;
+    font-family: cursive;
+}
+footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+
+.copyright {
+    font-weight: bold;
+  }
+  
